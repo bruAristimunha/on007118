@@ -1,8 +1,9 @@
 {
   "version": "2.0",
-  "pipeline_stage": "enriched",
+  "pipeline_stage": "validated",
   "title": "iEEG_comprehensive_HFA_model_part1",
-  "description": "This dataset comprises intracranial EEG recordings acquired during non-REM sleep from multiple subjects. The data were collected to develop and validate a comprehensive model of high-frequency activity (HFA) in epilepsy research. This represents part 1 of a multi-part dataset designed to characterize neural oscillations and their clinical significance during sleep states.",
+  "description": "This dataset comprises intracranial EEG (iEEG) recordings acquired during non-REM sleep from patients undergoing epilepsy monitoring across multiple clinical sites. The data were collected to support a comprehensive model of high-frequency activity (HFA) reported in Hatano et al. (in press). It is part one of a larger multi-part dataset release.",
+  "methods_description": "Intracranial EEG data were recorded during non-REM sleep. Recordings were conducted at multiple clinical sites including Wayne State University, Tohoku University, and the National Center of Neurology and Psychiatry, with ethics approval from institutional review boards at each location.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -24,6 +25,11 @@
   },
   "keywords": [
     {
+      "term": "Electroencephalography",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D004569"
+    },
+    {
       "term": "intracranial EEG"
     },
     {
@@ -33,21 +39,10 @@
       "term": "non-REM sleep"
     },
     {
-      "term": "sleep"
+      "term": "epilepsy"
     },
     {
-      "term": "Epilepsy",
-      "subject_scheme": "MeSH",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D004827"
-    },
-    {
-      "term": "neural oscillations"
-    },
-    {
-      "term": "iEEG"
-    },
-    {
-      "term": "multi-center"
+      "term": "BIDS"
     }
   ],
   "related_identifiers": [
@@ -74,15 +69,15 @@
   ],
   "funding_references": [
     {
-      "funder_name": "NIH",
+      "funder_name": "National Institutes of Health",
       "award_number": "NS064033"
     },
     {
-      "funder_name": "Uehara Memorial Foundation",
+      "funder_name": "Uehara Memorial Foundation Postdoctoral Fellowship",
       "award_number": "202441017"
     },
     {
-      "funder_name": "Uehara Memorial Foundation",
+      "funder_name": "Uehara Memorial Foundation Postdoctoral Fellowship",
       "award_number": "20210301"
     },
     {
@@ -104,14 +99,6 @@
     {
       "funder_name": "Japan Society for the Promotion of Science",
       "award_number": "22K09296"
-    },
-    {
-      "funder_name": "Japan Society for the Promotion of Science",
-      "award_number": "202560576"
-    },
-    {
-      "funder_name": "Japan Society for the Promotion of Science",
-      "award_number": "JP22K09296"
     }
   ],
   "resource_type_general": "Dataset",
@@ -129,6 +116,5 @@
     ".tsv",
     ".yml"
   ],
-  "methods_description": "Intracranial EEG data were recorded during non-REM sleep. Recordings were conducted at multiple clinical sites including Wayne State University, Tohoku University, and the National Center of Neurology and Psychiatry, with ethics approval from institutional review boards at each location.",
   "source_hash": "06fcd04fcfae10ae16b6b9808ea5f196d0545f3b464d18c851223627e8734e12"
 }
