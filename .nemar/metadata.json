@@ -2,7 +2,7 @@
   "version": "2.0",
   "pipeline_stage": "validated",
   "title": "iEEG_comprehensive_HFA_model_part1",
-  "description": "This dataset comprises intracranial EEG (iEEG) recordings acquired during non-REM sleep from patients undergoing epilepsy monitoring across multiple clinical sites. The data were collected to support a comprehensive model of high-frequency activity (HFA) reported in Hatano et al. (in press). It is part one of a larger multi-part dataset release.",
+  "description": "This dataset contains intracranial EEG (iEEG) recordings acquired during non-REM sleep, collected to support the development of a comprehensive model of high-frequency activity (HFA). It accompanies a forthcoming publication by Hatano and colleagues. Data were recorded at institutions in the United States and Japan.",
   "methods_description": "Intracranial EEG data were recorded during non-REM sleep. Recordings were conducted at multiple clinical sites including Wayne State University, Tohoku University, and the National Center of Neurology and Psychiatry, with ethics approval from institutional review boards at each location.",
   "license": "CC0",
   "dataset_type": "raw",
@@ -25,24 +25,23 @@
   },
   "keywords": [
     {
-      "term": "Electroencephalography",
-      "subject_scheme": "MeSH",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D004569"
-    },
-    {
       "term": "intracranial EEG"
     },
     {
-      "term": "high-frequency activity"
+      "term": "Electrocorticography",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D000069280"
     },
     {
       "term": "non-REM sleep"
     },
     {
-      "term": "epilepsy"
+      "term": "high-frequency activity"
     },
     {
-      "term": "BIDS"
+      "term": "Epilepsy",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D004827"
     }
   ],
   "related_identifiers": [
@@ -73,11 +72,11 @@
       "award_number": "NS064033"
     },
     {
-      "funder_name": "Uehara Memorial Foundation Postdoctoral Fellowship",
+      "funder_name": "Uehara Memorial Foundation",
       "award_number": "202441017"
     },
     {
-      "funder_name": "Uehara Memorial Foundation Postdoctoral Fellowship",
+      "funder_name": "Uehara Memorial Foundation",
       "award_number": "20210301"
     },
     {
@@ -107,7 +106,7 @@
     "ieeg"
   ],
   "sizes": [
-    "36.3 GB (83 files)"
+    "33.82 GB (83 files)"
   ],
   "formats": [
     ".edf",
